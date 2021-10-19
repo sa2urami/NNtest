@@ -1,0 +1,13 @@
+{
+  "name": "NNtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sa2urami/NNtest.git",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^16.11.1",
+    "@types/ws": "^8.2.0",
+    "ws": "^8.2.3"
+  }
+}

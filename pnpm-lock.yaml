@@ -1,0 +1,36 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^16.11.1
+  '@types/ws': ^8.2.0
+  ws: ^8.2.3
+
+dependencies:
+  '@types/node': 16.11.1
+  '@types/ws': 8.2.0
+  ws: 8.2.3
+
+packages:
+
+  /@types/node/16.11.1:
+    resolution: {integrity: sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==}
+    dev: false
+
+  /@types/ws/8.2.0:
+    resolution: {integrity: sha512-cyeefcUCgJlEk+hk2h3N+MqKKsPViQgF5boi9TTHSK+PoR9KWBb/C5ccPcDyAqgsbAYHTwulch725DV84+pSpg==}
+    dependencies:
+      '@types/node': 16.11.1
+    dev: false
+
+  /ws/8.2.3:
+    resolution: {integrity: sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
